@@ -1,44 +1,73 @@
 # DevFlow AI
 
-DevFlow AI is a full-stack developer productivity platform built to help developers manage their projects, tasks, profile, and basic AI-assisted code explanation in one place.
+DevFlow AI is a full-stack web app for managing projects and tasks. It also has a simple AI code explanation feature where users can paste code and get a basic explanation.
 
-This project was created as a fresher-level full-stack project to practice React, FastAPI, REST APIs, authentication, database operations, and frontend-backend integration.
-
-## Project Tagline
-
-The all-in-one AI-powered workspace for developers.
+I built this project to practice React, FastAPI, authentication, database operations, and frontend-backend integration.
 
 ## Features
 
 - User signup and login
-- JWT-based authentication
-- Dashboard with project and task statistics
-- Create, view, and delete projects
-- Create, view, update, and delete tasks
-- Task priority and status management
-- AI code explanation feature
-- User profile update
-- Frontend and backend integration using REST APIs
+- JWT authentication
+- Dashboard with basic stats
+- Add and manage projects
+- Add and manage tasks
+- Update task status and priority
+- Simple AI code explanation
+- Update user profile
 
 ## Tech Stack
 
-### Frontend
-
 - React
 - JavaScript
-- React Router DOM
-- Axios
-- CSS
-
-### Backend
-
 - FastAPI
-- Python
 - SQLAlchemy
 - SQLite
 - JWT Authentication
-- Passlib and bcrypt for password hashing
 
-### Database
+## How to Run
 
-- SQLite for local development
+### Backend
+
+```bash
+cd devflow-ai
+new_env\Scripts\activate
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
+
+Backend runs at:
+http://127.0.0.1:8000
+
+Frontend
+cd devflow-ai/frontend
+npm install
+npm run dev
+
+Frontend runs at:
+http://localhost:5173
+
+Main Pages
+- Login
+- Signup
+- Dashboard
+- Projects
+- Tasks
+- AI Assistant
+- Profile
+
+# What I Learned
+- Creating APIs with FastAPI
+- Connecting React with backend APIs
+- Using JWT for authentication
+- Performing CRUD operations
+- Using SQLAlchemy with SQLite
+- Managing code with Git and GitHub
+- Future Scope
+- Connect real OpenAI API
+- Add file upload
+- Add drag-and-drop task board
+- Add email verification
+- Deploy the project
+# Author
+ Devyani Goraksha 
