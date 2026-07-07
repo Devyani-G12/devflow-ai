@@ -70,4 +70,4 @@ Main Pages
 - Add email verification
 - Deploy the project
 # Author
- Devyani Goraksha 
+ Devyani Goraksha ` 
