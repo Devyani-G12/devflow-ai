@@ -30,17 +30,6 @@ I built this project to practice React, FastAPI, authentication, database operat
 
 
 
-Backend runs at:
-http://127.0.0.1:8000
-
-Frontend
-cd devflow-ai/frontend
-npm install
-npm run dev
-
-Frontend runs at:
-http://localhost:5173
-
 Main Pages
 - Login
 - Signup
