@@ -28,13 +28,7 @@ I built this project to practice React, FastAPI, authentication, database operat
 
 ### Backend
 
-```bash
-cd devflow-ai
-new_env\Scripts\activate
-cd backend
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-```
+
 
 Backend runs at:
 http://127.0.0.1:8000
